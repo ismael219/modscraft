@@ -1,0 +1,700 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mods Craft</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #222;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+    .btn {
+      display: inline-block;
+      background-color: green;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .rating input,
+    .rating textarea {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding: 5px;
+      border: none;
+    }
+    footer {
+      background-color: green;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mods Craft</h1>
+  </header>
+
+  <div class="grid">
+    <!-- Aquí van los 10 mods -->
+    <!-- Repite este bloque con tus propios datos -->
+
+    <!-- Just Enough Items (JEI) -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/attachments/31/417/thzzdin.png" alt="Mod 1" />
+      <h3>Rayos Mágicos</h3>
+      <p>Añade rayos elementales con poderes especiales.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/jei/download/6075247">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué opinas de este mod?"></textarea>
+      </div>
+    </div>
+
+    <!-- GeckoLib -->
+    <div class="card">
+      <img src="https://i.imgur.com/fjDJ4jM.png" alt="Mod 2" />
+      <h3>Just Enough Items</h3>
+      <p>Consulta recetas de crafteo fácilmente dentro del juego.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/geckolib/download/6622800">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gustó este mod?"></textarea>
+      </div>
+    </div>
+
+    <!-- Cloth Config API (Fabric/Forge/NeoForge) -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/avatars/thumbnails/282/467/64/64/637289313020452406.png" alt="Mod 3" />
+      <h3>Animales Salvajes</h3>
+      <p>Añade elefantes, tigres y otros animales a Minecraft.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/geckolib/download/6622800">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué agregarías a este mod?"></textarea>
+      </div>
+    </div>
+
+    <!-- Architectury API -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/avatars/thumbnails/313/420/64/64/637408811378175814.png" alt="Mod 4" />
+      <h3>Biomas Extras</h3>
+      <p>Nuevos biomas para explorar y construir en ellos.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/architectury-api/files?version=1.21.2">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Cuál es tu bioma favorito?"></textarea>
+      </div>
+    </div>
+
+    <!-- Mouse Tweaks -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/attachments/10/571/cursebanner.png" alt="Mod 5" />
+      <h3>Mini Mapa</h3>
+      <p>Un minimapa siempre visible para guiarte en el mundo.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download/6356717">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te parece útil este mod?"></textarea>
+      </div>
+    </div>
+
+    <!-- AppleSkin -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/avatars/thumbnails/47/527/64/64/636066936394500688.pngalt="Mod 6" />
+      <h3>Armas Modernas</h3>
+      <p>Agrega rifles, pistolas y granadas al juego.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/appleskin/download/6616294">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Cuál es tu arma favorita?"></textarea>
+      </div>
+    </div>
+
+    <!-- Bookshelf -->
+    <div class="card">
+      <img src="https://media.forgecdn.net/avatars/thumbnails/981/432/64/64/638488256947873195.png" alt="Mod 7" />
+      <h3>Viaje al Espacio</h3>
+      <p>Explora planetas, cohetes y estaciones espaciales.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/bookshelf/download/6618780">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gustaría ir a la luna en Minecraft?"></textarea>
+      </div>
+    </div>
+
+    <!-- Controlling -->
+    <div class="card">
+      <img src="https://youtu.be/MiSBgnFytAw" alt="Mod 8" />
+      <h3>Portales Dimensionales</h3>
+      <p>Crea portales a mundos nuevos con desafíos únicos.</p>
+      <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/controlling/download/6433678">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Cuál dimensión es tu favorita?"></textarea>
+      </div>
+    </div>
+
+<!-- MOD 11 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/586/931/637951932097382638.png" alt="Alex's Mobs" />
+  <h3>Alex's Mobs</h3>
+  <p>Añade más de 80 nuevas criaturas reales y ficticias con comportamientos únicos.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/alexs-mobs">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Qué opinas de este mod?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 12 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/474/103/637755438663453185.png" alt="Waystones" />
+  <h3>Waystones</h3>
+  <p>Agrega piedras mágicas que permiten viajar rápidamente entre lugares.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/waystones">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Te gusta esta forma de teletransportarte?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 13 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/610/412/638010699789317151.png" alt="Farmer's Delight" />
+  <h3>Farmer's Delight</h3>
+  <p>Mejora el sistema de agricultura con nuevos cultivos, comidas y herramientas.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Te gusta cocinar en Minecraft?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 14 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/676/646/638250352530145882.png" alt="Create" />
+  <h3>Create</h3>
+  <p>Un mod técnico que permite construir máquinas y sistemas mecánicos complejos.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/create">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Qué inventarías con este mod?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 15 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/569/941/637927124659166637.png" alt="YUNG's Better Mineshafts" />
+  <h3>YUNG's Better Mineshafts</h3>
+  <p>Transforma las minas abandonadas en estructuras enormes y variadas.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Exploraste alguna mina con este mod?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 16 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/456/197/637729646162422922.png" alt="Macaw's Furniture" />
+  <h3>Macaw's Furniture</h3>
+  <p>Agrega muebles realistas como sofás, mesas, sillas y más.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/macaws-furniture">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Qué mueble es tu favorito?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 17 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/560/269/637915742671896997.png" alt="Nature's Compass" />
+  <h3>Nature's Compass</h3>
+  <p>Una brújula especial que te guía hacia cualquier bioma que desees encontrar.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Qué bioma buscaste primero?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 18 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/568/239/637924811866729778.png" alt="Sophisticated Backpacks" />
+  <h3>Sophisticated Backpacks</h3>
+  <p>Mochilas personalizables con muchas mejoras y almacenamiento.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Te fue útil esta mochila?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 19 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/617/810/638029175077598941.png" alt="Quark" />
+  <h3>Quark</h3>
+  <p>Añade pequeñas mejoras al juego que no afectan el estilo clásico de Minecraft.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/quark">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Qué cambio de Quark te gustó más?"></textarea>
+  </div>
+</div>
+
+<!-- MOD 20 -->
+<div class="card">
+  <img src="https://media.forgecdn.net/avatars/445/738/637713298304188759.png" alt="Inventory Sorter" />
+  <h3>Inventory Sorter</h3>
+  <p>Ordena tu inventario con un solo clic. Sencillo, rápido y útil.</p>
+  <a class="btn" href="https://www.curseforge.com/minecraft/mc-mods/inventory-sorting">Descargar</a>
+  <div class="rating">
+    <textarea placeholder="¿Te ayuda a tener orden?"></textarea>
+  </div>
+</div>
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector de Juegos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    .game-selector {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #222;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,255,0,0.5);
+    }
+
+    .game-button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .sub-buttons {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .sub-buttons.active {
+      display: block;
+    }
+
+    .sub-button {
+      background-color: #444;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      margin: 4px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mods Craft - Minecraft</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      margin: 0; padding: 0;
+      text-align: center;
+    }
+    header {
+      background: green;
+      padding: 20px;
+      font-size: 2em;
+    }
+    .menu {
+      margin: 20px 0;
+    }
+    .menu button {
+      background: green;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      color: white;
+      font-size: 1.1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .menu button:hover {
+      background: #004d00;
+    }
+  </style>
+</head>
+<body>
+
+<header>Mods Craft - Minecraft</header>
+
+<div class="menu">
+  <button onclick="location.href='minecraft-mods.html'">Mods</button>
+  <button onclick="location.href='minecraft-skins.html'">Skins</button>
+  <button onclick="location.href='minecraft-mapas.html'">Mapas</button>
+  <button onclick="location.href='minecraft-texturas.html'">Texturas</button>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Texturas Minecraft - Mods Craft</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #222;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+    .btn {
+      display: inline-block;
+      background-color: green;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .rating textarea {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 5px;
+      padding: 5px;
+      border: none;
+      resize: vertical;
+    }
+    footer {
+      background-color: green;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Texturas Minecraft</h1>
+  </header>
+
+  <div class="grid">
+
+    <!-- Textura 1 -->
+    <div class="card">
+      <img src="https://example.com/texture1.png" alt="Textura 1" />
+      <h3>Textura Realista</h3>
+      <p>Transforma el mundo con texturas ultra realistas.</p>
+      <a class="btn" href="https://example.com/download/texture1" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué opinas de esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 2 -->
+    <div class="card">
+      <img src="https://example.com/texture2.png" alt="Textura 2" />
+      <h3>Textura Pixel Art</h3>
+      <p>Un estilo clásico para los amantes del pixel art.</p>
+      <a class="btn" href="https://example.com/download/texture2" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 3 -->
+    <div class="card">
+      <img src="https://example.com/texture3.png" alt="Textura 3" />
+      <h3>Textura Medieval</h3>
+      <p>Ideal para construcciones y mapas medievales.</p>
+      <a class="btn" href="https://example.com/download/texture3" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Quieres usar esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 4 -->
+    <div class="card">
+      <img src="https://example.com/texture4.png" alt="Textura 4" />
+      <h3>Textura Minimalista</h3>
+      <p>Para un estilo simple y limpio.</p>
+      <a class="btn" href="https://example.com/download/texture4" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta este estilo?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 5 -->
+    <div class="card">
+      <img src="https://example.com/texture5.png" alt="Textura 5" />
+      <h3>Textura Fantasía</h3>
+      <p>Perfecta para mundos mágicos y fantásticos.</p>
+      <a class="btn" href="https://example.com/download/texture5" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué te parece esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 6 -->
+    <div class="card">
+      <img src="https://example.com/texture6.png" alt="Textura 6" />
+      <h3>Textura Oscura</h3>
+      <p>Para ambientes tenebrosos y misteriosos.</p>
+      <a class="btn" href="https://example.com/download/texture6" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta este estilo oscuro?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 7 -->
+    <div class="card">
+      <img src="https://example.com/texture7.png" alt="Textura 7" />
+      <h3>Textura Cartoon</h3>
+      <p>Colores vivos y estilo animado.</p>
+      <a class="btn" href="https://example.com/download/texture7" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Quieres esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 8 -->
+    <div class="card">
+      <img src="https://example.com/texture8.png" alt="Textura 8" />
+      <h3>Textura Pixel HD</h3>
+      <p>Texturas pixeladas pero con alta definición.</p>
+      <a class="btn" href="https://example.com/download/texture8" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué opinas de esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 9 -->
+    <div class="card">
+      <img src="https://example.com/texture9.png" alt="Textura 9" />
+      <h3>Textura Retro</h3>
+      <p>Para dar un aire vintage a tu mundo.</p>
+      <a class="btn" href="https://example.com/download/texture9" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta lo retro?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 10 -->
+    <div class="card">
+      <img src="https://example.com/texture10.png" alt="Textura 10" />
+      <h3>Textura Natural</h3>
+      <p>Colores y texturas inspirados en la naturaleza.</p>
+      <a class="btn" href="https://example.com/download/texture10" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta lo natural?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 11 -->
+    <div class="card">
+      <img src="https://example.com/texture11.png" alt="Textura 11" />
+      <h3>Textura Urbana</h3>
+      <p>Ideal para construcciones modernas y ciudades.</p>
+      <a class="btn" href="https://example.com/download/texture11" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta lo urbano?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 12 -->
+    <div class="card">
+      <img src="https://example.com/texture12.png" alt="Textura 12" />
+      <h3>Textura Acuática</h3>
+      <p>Perfecta para mapas con agua y paisajes marinos.</p>
+      <a class="btn" href="https://example.com/download/texture12" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Quieres esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 13 -->
+    <div class="card">
+      <img src="https://example.com/texture13.png" alt="Textura 13" />
+      <h3>Textura Steampunk</h3>
+      <p>Para un estilo retro futurista.</p>
+      <a class="btn" href="https://example.com/download/texture13" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta el steampunk?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 14 -->
+    <div class="card">
+      <img src="https://example.com/texture14.png" alt="Textura 14" />
+      <h3>Textura Épica</h3>
+      <p>Texturas detalladas para mundos de fantasía.</p>
+      <a class="btn" href="https://example.com/download/texture14" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 15 -->
+    <div class="card">
+      <img src="https://example.com/texture15.png" alt="Textura 15" />
+      <h3>Textura Vintage</h3>
+      <p>Colores suaves y estilo clásico.</p>
+      <a class="btn" href="https://example.com/download/texture15" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta lo vintage?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 16 -->
+    <div class="card">
+      <img src="https://example.com/texture16.png" alt="Textura 16" />
+      <h3>Textura Neón</h3>
+      <p>Colores brillantes y vibrantes para un estilo moderno.</p>
+      <a class="btn" href="https://example.com/download/texture16" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Te gusta el neón?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 17 -->
+    <div class="card">
+      <img src="https://example.com/texture17.png" alt="Textura 17" />
+      <h3>Textura Industrial</h3>
+      <p>Perfecta para fábricas y ambientes mecánicos.</p>
+      <a class="btn" href="https://example.com/download/texture17" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Quieres esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 18 -->
+    <div class="card">
+      <img src="https://example.com/texture18.png" alt="Textura 18" />
+      <h3>Textura Pixel Vintage</h3>
+      <p>Combinación de pixel art con colores retro.</p>
+      <a class="btn" href="https://example.com/download/texture18" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué opinas?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 19 -->
+    <div class="card">
+      <img src="https://example.com/texture19.png" alt="Textura 19" />
+      <h3>Textura Cartoon HD</h3>
+      <p>Estilo animado con alta definición.</p>
+      <a class="btn" href="https://example.com/download/texture19" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Quieres usar esta textura?"></textarea>
+      </div>
+    </div>
+
+    <!-- Textura 20 -->
+    <div class="card">
+      <img src="https://example.com/texture20.png" alt="Textura 20" />
+      <h3>Textura Épica Oscura</h3>
+      <p>Perfecta para ambientes sombríos y de fantasía.</p>
+      <a class="btn" href="https://example.com/download/texture20" target="_blank">Descargar</a>
+      <div class="rating">
+        <textarea placeholder="¿Qué opinas?"></textarea>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    Creado por Ismael
+  </footer>
+
+</body>
+</html>
